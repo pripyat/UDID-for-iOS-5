@@ -1,0 +1,8 @@
+The method of interest is - uniqueDeviceIdentifier. This method, depending on the value of kShouldAlwaysGenerateCustomUDID (in the header file) will return a custom UDID if iOS 5 is detected or Apple's UDID if a pre iOS 5 OS is detected. 
+
+Note: Users can customize this behavior by changing kShouldAlwaysGenerateCustomUDID to 1, which will result in the class always outputting a custom UDID.
+
+The class works by taking the device's MAC address and converting this to a lower case MD5 string. This makes sure the key is unique and not too long. 
+
+Everything is compressed into one class, so to use this class simply copy it into your project and import it using #import "DADevice.h"
+
