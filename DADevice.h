@@ -3,7 +3,7 @@
 //  iOS5_UDID
 //
 //  Created by David Schiefer on 20.08.11.
-//  Copyright © 2011 WriteIt! Studios Limited. All rights reserved.
+//  Copyright (c) 2007 - 2011 WriteIt! Studios Limited. All rights reserved.
 //  You may use this class in any project you like as long as you leave this header intact.
 
 #import <Foundation/Foundation.h>
