@@ -77,7 +77,7 @@ char*  getMacAddress(char* macAddress, char* ifName) {
 			}
 			
 			return [self uniqueIdentifier]; //as it's a pre 5.0 device, we can use this
-	    }
+	        }
 
 		return [self customUniqueDeviceIdentifier];
 }
