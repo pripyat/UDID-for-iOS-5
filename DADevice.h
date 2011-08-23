@@ -14,7 +14,7 @@
  @param Defines whether a custom UDID should always be returned or not. NO by default. This will alter -uniqueDeviceIdentifier's behavior.
 */
 
-@interface UIDevice (UIDevice)
+@interface UIDevice (DADevice)
 
 - (NSString *)uniqueDeviceIdentifier;
 
