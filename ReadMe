@@ -4,5 +4,7 @@ Note: Users can customize this behavior by changing kShouldAlwaysGenerateCustomU
 
 The class works by taking the device's MAC address and converting this to a lower case MD5 string. This makes sure the key is unique and not too long. 
 
+Because this custom UDID is generated using MD5, it cannot be converted back so the original MAC address is not revealed, making it more secure than the original Apple provided UDID.
+
 Everything is compressed into one class, so to use this class simply copy it into your project and import it using #import "DADevice.h"
 
